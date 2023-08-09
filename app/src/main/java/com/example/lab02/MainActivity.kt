@@ -31,6 +31,10 @@ class MainActivity : AppCompatActivity() {
         }else if (textoBoton=="RESET") {
             tvRes?.text="0"
         }else {
+            /*  
+            Esto nos permite trabajar con el resultado anterior al que ya se calculo, no se guardan valores pero
+            se pueden trabjar con los que tenemos en el resultado en pantalla.
+             */
             tvRes?.text=mostrar
         }
     }
